@@ -1,0 +1,50 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:hover{background-color: #ddd;}
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(130, 130, 136);
+    color: white;
+}
+
+#idWTForm input[type=text], #idWTForm input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#idWTForm input[type=submit], #idWTForm a{
+    width: 49.5%;
+    padding: 12px 20px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(187, 101, 101);
+    color: black;
+}

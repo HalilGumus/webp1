@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>webteams</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<p><strong>Gruppe D</strong> <strong>Team Serda Acimis, Halil Ibrahim Gümüs</strong> <strong>Gültigkeitsdatum 21.10.2019</strong></p>
+<h1 id="aufbau-der-anwendung">Aufbau der Anwendung</h1>
+<p>Die Webanwendung besteht aus den folgenden Seiten:<br> <br> Startseite: Auflistung der Daten der erfassten Teams<br> Buttons zum erfassen, löschen, bearbeiten der Daten und ein Button zum ändern der Ansicht<br> <br> Formular: Erfassung neuer Daten oder Bearbeitung vorhandener Daten<br> Buttons zum speichern und übermitteln des Formulars und zum abbrechen der Eingabe</p>
+<h1 id="durchgeführte-ergänzungen">Durchgeführte Ergänzungen</h1>
+<p>2 Funktionen in application.py:<br> changeForm() und back()<br> (Siehe Abbildung 3)<br> ein neues Template für Aufzählungsansicht</p>
+<h1 id="beschreibung-des-http-datenverkehrs">Beschreibung des HTTP-Datenverkehrs</h1>
+<h2 id="beim-start-der-anwendung">beim Start der Anwendung</h2>
+<p>Es werden 4 Elemente mit GET geladen:<br> “/”<br> “/webteams.js”<br> “/webteams.css”<br> “favicon.ico”<br></p>
+<p>Siehe Abbildung 1</p>
+<h2 id="beim-speichern-von-formulardaten">beim speichern von Formulardaten</h2>
+<p>Es werden durch POST Parameter übergeben:<br> id_spa<br> name1_spa<br> vorname1_spa<br> matrnr1_spa<br> semesteranzahl1_spa<br> name2_spa<br> vorname2_spa<br> matrnr2_spa<br> semesteranzahl2_spa<br></p>
+<p>Siehe Abbildung 2</p>
+<h2 id="screenshots">Screenshots</h2>
+<p>Abbildung 1 <img src="Abbildung1.png" /></p>
+<p>Abbildung 2 <img src="Abbildung2.png" /></p>
+<p>Abbildung 3 <img src="Abbildung3.png" /></p>
+</body>
+</html>
